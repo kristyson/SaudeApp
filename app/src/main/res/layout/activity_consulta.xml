@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/paciente_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Paciente"/>
+
+    <EditText
+        android:id="@+id/paciente_idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade do Paciente"/>
+
+    <EditText
+        android:id="@+id/medico_crm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CRM do Médico"/>
+
+    <EditText
+        android:id="@+id/data_consulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data da Consulta (yyyy-MM-dd'T'HH:mm)"/>
+
+    <Button
+        android:id="@+id/marcar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcar Consulta"
+        android:onClick="marcarConsulta"/>
+</LinearLayout>
